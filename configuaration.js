@@ -1,8 +1,14 @@
 exports.config = {
-  seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['ElementBasics.js'],
+	seleniumAddress : 'http://localhost:4444/wd/hub',
 
-capabilities: {
-	'browserName': 'internet explorer'
-}
+	// set javascript file to run
+
+	specs : [ 'HandleDropdown.js' ],
+
+// set capabilities to run tests on different browsers
+
+/*
+ * capabilities: { 'browserName': 'internet explorer' }
+ */
+
 };
