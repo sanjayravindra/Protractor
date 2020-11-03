@@ -3,7 +3,7 @@ exports.config = {
 
 	// set javascript file to run
 
-	specs : [ 'HandleDropdown.js' ],
+	specs : [ 'AlertPopUP.js' ],
 
 // set capabilities to run tests on different browsers
 
